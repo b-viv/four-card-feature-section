@@ -1,0 +1,10 @@
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main .wrapper {
+  display: grid;
+  gap: 30px;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,46 @@
+@use '../util/' as u;
+
+h1 span {
+    font-size: clamp(25px, 2.8vw, 35px);
+    line-height: 2.5rem;
+
+    @include u.breakpoint {
+        line-height: 3.5rem;
+    }
+
+
+    &.first-title {
+        color: var(--Very-Dark-Blue);
+        font-family: u.$font-poppins-extralight;
+        font-weight: lighter;
+    }
+
+    &.second-title {
+        font-family: u.$font-poppins-semibold;
+        color: var(--Very-Dark-Blue);
+        display: block;
+    }
+}
+
+h2 {
+    font-family: u.$font-poppins-semibold;
+    color: var(--Very-Dark-Blue);
+    line-height: 0.5rem;
+}
+
+p {
+    font-family: u.$font-poppins-regular;
+    color: var(--Grayish-Blue);
+    line-height: 1.6rem;
+}
+
+.card p {
+    font-size: 0.9rem;
+    padding-bottom: 0;
+
+    @include u.breakpoint {
+        padding-bottom: 24px;
+    }
+
+}
+

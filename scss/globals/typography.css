@@ -1,0 +1,20 @@
+h1 .first-title {
+  color: var(--Grayish-Blue);
+  font-family: "Poppins-ExtraLight";
+}
+
+h1 .second-title {
+  font-family: "Poppins-Semibold";
+  color: var(--Very-Dark-Blue);
+  display: block;
+}
+
+h2 {
+  font-family: "Poppins-Semibold";
+  color: var(--Very-Dark-Blue);
+}
+
+p {
+  font-family: "Poppins-Regular";
+  color: var(--Grayish-Blue);
+}/*# sourceMappingURL=typography.css.map */

@@ -1,0 +1,12 @@
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto;
+}
+
+header .wrapper{
+    margin: 14px auto 5px auto;
+    width: clamp(310px, 50vw, 520px);
+    text-align: center;
+}
